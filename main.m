@@ -6,10 +6,10 @@ clear
 
 %% Kmeans algorithm
 
-load flood_data.mat;
+load flood_data_Notdead.mat;
 % X has the data
-% Y is the class 1-Flood 0-Not flood 
-
+% Y is the class 1-Flood 0-Not flood or 1-Deads 0-not Deads
+                 
 [num_patrones, num_variables] = size(X);
 p_train = 0.7;
 
